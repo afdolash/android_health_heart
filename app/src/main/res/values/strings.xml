@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HeartHealth</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Heart Health</string>
+    <string name="slide_1_desc">An app that will help you to check your health through your heart rate. This app also comes with additional tools.</string>
+
+    <string name="slide_2_title">Heart Graph</string>
+    <string name="slide_2_desc">See how your heart is beating with chart and sound. With this cool feature, you can monitor your heart rate.</string>
+
+    <string name="slide_3_title">Heart Statistic</string>
+    <string name="slide_3_desc">See your heart condition now. Is your heart in good condition, not good, or excessive. This app kana give this message to you.</string>
+</resources>
