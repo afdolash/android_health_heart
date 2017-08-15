@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // Heart sound play
                     try {
-                        if (Integer.parseInt(dataSensor[dataSensor.length - 4]) > 840) {
+                        if (Integer.parseInt(dataSensor[dataSensor.length - 4]) > 850) {
                             mediaPlayer.start();
                         }
                     } catch (Exception e) {
@@ -236,7 +236,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // Draw line graph
                     try {
-                        addEntry((Float.parseFloat(dataSensor[dataSensor.length - 4])) - 840f);
+                        addEntry((Float.parseFloat(dataSensor[dataSensor.length - 4])) - 850f);
                     } catch (Exception e) {
                         // Set your error action here
                     }
@@ -336,6 +336,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
+        // Create thread
         mConnectedThread = new ConnectedThread(mBtSocket);
         mConnectedThread.start();
 
